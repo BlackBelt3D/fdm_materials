@@ -27,43 +27,7 @@
 
         <machine>
             <machine_identifier manufacturer="Blackbelt BV" product="blackbelt" />
-
-            <hotend id="0.4 mm, 15°">
-                <setting key="hardware compatible">yes</setting>
-            </hotend>
-            <hotend id="0.6 mm, 15°">
-                <setting key="hardware compatible">yes</setting>
-            </hotend>
-            <hotend id="0.8 mm, 15°">
-                <setting key="hardware compatible">yes</setting>
-            </hotend>
-            <hotend id="0.4 mm, 25°">
-                <setting key="hardware compatible">yes</setting>
-            </hotend>
-            <hotend id="0.6 mm, 25°">
-                <setting key="hardware compatible">yes</setting>
-            </hotend>
-            <hotend id="0.8 mm, 25°">
-                <setting key="hardware compatible">yes</setting>
-            </hotend>
-            <hotend id="0.4 mm, 35°">
-                <setting key="hardware compatible">yes</setting>
-            </hotend>
-            <hotend id="0.6 mm, 35°">
-                <setting key="hardware compatible">yes</setting>
-            </hotend>
-            <hotend id="0.8 mm, 35°">
-                <setting key="hardware compatible">yes</setting>
-            </hotend>
-            <hotend id="0.4 mm, 45°">
-                <setting key="hardware compatible">yes</setting>
-            </hotend>
-            <hotend id="0.6 mm, 45°">
-                <setting key="hardware compatible">yes</setting>
-            </hotend>
-            <hotend id="0.8 mm, 45°">
-                <setting key="hardware compatible">yes</setting>
-            </hotend>
+            <setting key="hardware compatible">yes</setting>
         </machine>
     </settings>
 </fdmmaterial>

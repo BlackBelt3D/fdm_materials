@@ -26,6 +26,7 @@
 
         <machine>
           <machine_identifier manufacturer="Blackbelt BV" product="blackbelt" />
+          <setting key="hardware compatible">yes</setting>
 
           <setting key="print temperature">215</setting>
           <setting key="standby temperature">175</setting>
@@ -42,43 +43,6 @@
           <cura:setting key="coasting_enable">yes</cura:setting>
           <cura:setting key="coasting_volume">1</cura:setting>
           <cura:setting key="coasting_speed">100</cura:setting>
-
-          <hotend id="0.4 mm, 15°">
-            <setting key="hardware compatible">yes</setting>
-          </hotend>
-          <hotend id="0.6 mm, 15°">
-            <setting key="hardware compatible">yes</setting>
-          </hotend>
-          <hotend id="0.8 mm, 15°">
-            <setting key="hardware compatible">yes</setting>
-          </hotend>
-          <hotend id="0.4 mm, 25°">
-            <setting key="hardware compatible">yes</setting>
-          </hotend>
-          <hotend id="0.6 mm, 25°">
-            <setting key="hardware compatible">yes</setting>
-          </hotend>
-          <hotend id="0.8 mm, 25°">
-            <setting key="hardware compatible">yes</setting>
-          </hotend>
-          <hotend id="0.4 mm, 35°">
-            <setting key="hardware compatible">yes</setting>
-          </hotend>
-          <hotend id="0.6 mm, 35°">
-            <setting key="hardware compatible">yes</setting>
-          </hotend>
-          <hotend id="0.8 mm, 35°">
-            <setting key="hardware compatible">yes</setting>
-          </hotend>
-          <hotend id="0.4 mm, 45°">
-            <setting key="hardware compatible">yes</setting>
-          </hotend>
-          <hotend id="0.6 mm, 45°">
-            <setting key="hardware compatible">yes</setting>
-          </hotend>
-          <hotend id="0.8 mm, 45°">
-            <setting key="hardware compatible">yes</setting>
-          </hotend>
         </machine>
     </settings>
 </fdmmaterial>
