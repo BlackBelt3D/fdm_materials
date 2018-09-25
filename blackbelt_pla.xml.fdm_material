@@ -43,6 +43,7 @@
           <cura:setting key="coasting_enable">yes</cura:setting>
           <cura:setting key="coasting_volume">1</cura:setting>
           <cura:setting key="coasting_speed">100</cura:setting>
+          <cura:setting key="retraction_extra_prime_amount">1</cura:setting>
         </machine>
     </settings>
 </fdmmaterial>
