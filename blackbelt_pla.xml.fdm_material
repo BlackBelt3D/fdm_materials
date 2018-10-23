@@ -38,7 +38,6 @@
           <cura:setting key="blackbelt_secondary_fans_enabled">yes</cura:setting>
           <cura:setting key="blackbelt_secondary_fans_speed">50</cura:setting>
           <cura:setting key="blackbelt_belt_wall_speed">10</cura:setting>
-          <cura:setting key="blackbelt_belt_wall_flow">150</cura:setting>
           <cura:setting key="material_flow">85</cura:setting>
           <cura:setting key="coasting_enable">yes</cura:setting>
           <cura:setting key="coasting_volume">1</cura:setting>
