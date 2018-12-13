@@ -30,7 +30,7 @@
             <setting key="hardware compatible">yes</setting>
 
             <cura:setting key="speed_print">30</cura:setting>
-            <cura:setting key="blackbelt_belt_wall_adjust">no</cura:setting>
+            <cura:setting key="blackbelt_belt_wall_enabled">no</cura:setting>
             <cura:setting key="blackbelt_secondary_fans_enabled">yes</cura:setting>
             <cura:setting key="blackbelt_secondary_fans_speed">20</cura:setting>
             <cura:setting key="blackbelt_z_offset_gap">0.5</cura:setting>
