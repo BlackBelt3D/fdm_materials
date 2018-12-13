@@ -30,6 +30,9 @@
             <setting key="hardware compatible">yes</setting>
 
             <cura:setting key="speed_print">30</cura:setting>
+            <cura:setting key="coasting_enable">yes</cura:setting>
+            <cura:setting key="coasting_volume">1</cura:setting>
+            <cura:setting key="retraction_extra_prime_amount">1</cura:setting>
             <cura:setting key="blackbelt_belt_wall_enabled">no</cura:setting>
             <cura:setting key="blackbelt_secondary_fans_enabled">yes</cura:setting>
             <cura:setting key="blackbelt_secondary_fans_speed">20</cura:setting>
