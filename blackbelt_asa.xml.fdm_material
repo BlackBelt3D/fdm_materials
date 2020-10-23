@@ -3,11 +3,11 @@
     <metadata>
         <name>
             <brand>colorFabb</brand>
-            <material>PLA</material>
+            <material>ASA</material>
             <color>Generic</color>
-            <label>PLA Economy</label>
+            <label>ASA</label>
         </name>
-        <GUID>3ed31896-4698-404e-9960-8daebc05885a</GUID>
+        <GUID>985a5531-d06b-445e-9b0e-969f4781e9e0</GUID>
         <version>3</version>
         <color_code>#999999</color_code>
         <description></description>
@@ -18,38 +18,36 @@
         <density>1.25</density>
     </properties>
     <settings>
-        <setting key="print temperature">210</setting>
-        <setting key="standby temperature">160</setting>
+        <setting key="print temperature">250</setting>
+        <setting key="standby temperature">200</setting>
         <setting key="heated bed temperature">70</setting>
-        <setting key="retraction amount">3</setting>
-        <setting key="retraction speed">65</setting>
-        <setting key="print cooling">65</setting>
+        <setting key="retraction amount">3.5</setting>
+        <setting key="retraction speed">45</setting>
+        <setting key="print cooling">40</setting>
 
         <machine>
             <machine_identifier manufacturer="Blackbelt 3D BV" product="blackbelt" />
             <setting key="hardware compatible">yes</setting>
 
             <cura:setting key="blackbelt_secondary_fans_enabled">yes</cura:setting>
-            <cura:setting key="blackbelt_secondary_fans_speed">50</cura:setting>
+            <cura:setting key="blackbelt_secondary_fans_speed">10</cura:setting>
             <cura:setting key="blackbelt_belt_wall_speed">10</cura:setting>
-            <cura:setting key="blackbelt_belt_wall_flow">65</cura:setting>
+            <cura:setting key="blackbelt_belt_wall_flow">95</cura:setting>
             <cura:setting key="material_flow">85</cura:setting>
             <cura:setting key="coasting_enable">yes</cura:setting>
             <cura:setting key="coasting_speed">70</cura:setting>
-            <cura:setting key="retraction_extra_prime_amount">0</cura:setting>
         </machine>
         <machine>
             <machine_identifier manufacturer="Blackbelt 3D BV" product="blackbeltvd" />
             <setting key="hardware compatible">yes</setting>
 
             <cura:setting key="blackbelt_secondary_fans_enabled">yes</cura:setting>
-            <cura:setting key="blackbelt_secondary_fans_speed">70</cura:setting>
+            <cura:setting key="blackbelt_secondary_fans_speed">10</cura:setting>
             <cura:setting key="blackbelt_belt_wall_speed">10</cura:setting>
-            <cura:setting key="blackbelt_belt_wall_flow">120</cura:setting>
-            <cura:setting key="material_flow">80</cura:setting>
+            <cura:setting key="blackbelt_belt_wall_flow">105</cura:setting>
+            <cura:setting key="material_flow">85</cura:setting>
             <cura:setting key="coasting_enable">yes</cura:setting>
             <cura:setting key="coasting_speed">70</cura:setting>
-            <cura:setting key="retraction_extra_prime_amount">0</cura:setting>
             <cura:setting key="blackbelt_z_offset_gap">0.5</cura:setting>
         </machine>
     </settings>

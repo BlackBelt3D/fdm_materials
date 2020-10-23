@@ -8,7 +8,7 @@
             <label>HT</label>
         </name>
         <GUID>0826f261-d0e9-41a3-ab66-c4df8f32d384</GUID>
-        <version>2</version>
+        <version>3</version>
         <color_code>#222222</color_code>
         <description></description>
         <adhesion_info></adhesion_info>
@@ -23,14 +23,29 @@
         <setting key="heated bed temperature">100</setting>
         <setting key="retraction amount">4</setting>
         <setting key="retraction speed">65</setting>
-        <setting key="print cooling">30</setting>
+        <setting key="print cooling enabled">no</setting>
+        <setting key="print cooling">0</setting>
 
         <machine>
-            <machine_identifier manufacturer="Blackbelt BV" product="blackbelt" />
+            <machine_identifier manufacturer="Blackbelt 3D BV" product="blackbelt" />
             <setting key="hardware compatible">yes</setting>
 
             <cura:setting key="blackbelt_belt_wall_speed">10</cura:setting>
             <cura:setting key="material_flow">90</cura:setting>
+            <cura:setting key="coasting_enable">yes</cura:setting>
+            <cura:setting key="coasting_speed">70</cura:setting>
+        </machine>
+        <machine>
+            <machine_identifier manufacturer="Blackbelt BV" product="blackbeltvd" />
+            <setting key="hardware compatible">yes</setting>
+
+            <cura:setting key="blackbelt_belt_wall_speed">10</cura:setting>
+            <cura:setting key="blackbelt_belt_wall_flow">100</cura:setting>
+            <cura:setting key="material_flow">90</cura:setting>
+            <cura:setting key="blackbelt_z_offset_gap">0.25</cura:setting>
+            <cura:setting key="retraction amount">2.5</cura:setting>
+            <cura:setting key="coasting_enable">yes</cura:setting>
+            <cura:setting key="coasting_speed">70</cura:setting>
         </machine>
     </settings>
 </fdmmaterial>

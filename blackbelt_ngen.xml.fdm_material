@@ -8,7 +8,7 @@
             <label>nGen</label>
         </name>
         <GUID>13ea3fda-52ef-4364-93ad-b23c0d1c6b29</GUID>
-        <version>2</version>
+        <version>3</version>
         <color_code>#081d6a</color_code>
         <description></description>
         <adhesion_info></adhesion_info>
@@ -26,12 +26,28 @@
         <setting key="print cooling">30</setting>
 
         <machine>
-            <machine_identifier manufacturer="Blackbelt BV" product="blackbelt" />
+            <machine_identifier manufacturer="Blackbelt 3D BV" product="blackbelt" />
             <setting key="hardware compatible">yes</setting>
 
             <cura:setting key="blackbelt_belt_wall_speed">10</cura:setting>
             <cura:setting key="blackbelt_secondary_fans_enabled">yes</cura:setting>
             <cura:setting key="blackbelt_secondary_fans_speed">5</cura:setting>
+            <cura:setting key="coasting_enable">yes</cura:setting>
+            <cura:setting key="coasting_speed">70</cura:setting>
+        </machine>
+        <machine>
+            <machine_identifier manufacturer="Blackbelt 3D BV" product="blackbeltvd" />
+            <setting key="hardware compatible">yes</setting>
+
+            <cura:setting key="blackbelt_belt_wall_speed">10</cura:setting>
+            <cura:setting key="blackbelt_belt_wall_flow">100</cura:setting>
+            <cura:setting key="blackbelt_z_offset_gap">0.25</cura:setting>
+            <cura:setting key="retraction amount">2.5</cura:setting>
+            <cura:setting key="blackbelt_secondary_fans_enabled">yes</cura:setting>
+            <cura:setting key="blackbelt_secondary_fans_speed">5</cura:setting>
+            <cura:setting key="coasting_enable">yes</cura:setting>
+            <cura:setting key="coasting_speed">70</cura:setting>
         </machine>
     </settings>
 </fdmmaterial>
+

@@ -8,7 +8,7 @@
             <label>PETG Economy</label>
         </name>
         <GUID>44ee0260-162f-443b-9000-7e23491cd324</GUID>
-        <version>2</version>
+        <version>3</version>
         <color_code>#666666</color_code>
         <description></description>
         <adhesion_info></adhesion_info>
@@ -21,17 +21,37 @@
         <setting key="print temperature">240</setting>
         <setting key="standby temperature">190</setting>
         <setting key="heated bed temperature">70</setting>
-        <setting key="retraction amount">4</setting>
+        <setting key="retraction amount">3.5</setting>
         <setting key="retraction speed">65</setting>
-        <setting key="print cooling">60</setting>
+        <setting key="print cooling">30</setting>
 
         <machine>
-            <machine_identifier manufacturer="Blackbelt BV" product="blackbelt" />
+            <machine_identifier manufacturer="Blackbelt 3D BV" product="blackbelt" />
             <setting key="hardware compatible">yes</setting>
 
             <cura:setting key="blackbelt_belt_wall_speed">10</cura:setting>
+            <cura:setting key="blackbelt_belt_wall_flow">90</cura:setting>
+            <cura:setting key="blackbelt_secondary_fans_enabled">yes</cura:setting>
+            <cura:setting key="coasting_enable">yes</cura:setting>
+            <cura:setting key="coasting_volume">1</cura:setting>
+			<cura:setting key="coasting_min_volume">2</cura:setting>
+            <cura:setting key="coasting_speed">70</cura:setting>
+            <cura:setting key="blackbelt_secondary_fans_speed">5</cura:setting>
+        </machine>
+        <machine>
+            <machine_identifier manufacturer="Blackbelt 3D BV" product="blackbeltvd" />
+            <setting key="hardware compatible">yes</setting>
+
+            <cura:setting key="blackbelt_belt_wall_speed">10</cura:setting>
+            <cura:setting key="blackbelt_belt_wall_flow">100</cura:setting>
             <cura:setting key="blackbelt_secondary_fans_enabled">yes</cura:setting>
             <cura:setting key="blackbelt_secondary_fans_speed">5</cura:setting>
+            <cura:setting key="blackbelt_z_offset_gap">0.25</cura:setting>
+            <cura:setting key="retraction amount">2.5</cura:setting>
+            <cura:setting key="coasting_enable">yes</cura:setting>
+            <cura:setting key="coasting_volume">1</cura:setting>
+            <cura:setting key="coasting_min_volume">2</cura:setting>
+            <cura:setting key="coasting_speed">70</cura:setting>
         </machine>
     </settings>
 </fdmmaterial>

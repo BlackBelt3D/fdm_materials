@@ -8,7 +8,7 @@
             <label>Cheetah</label>
         </name>
         <GUID>4028c0f4-7122-4448-9e9c-1ede54c89e6c</GUID>
-        <version>2</version>
+        <version>3</version>
         <color_code>#eeeeee</color_code>
         <description></description>
         <adhesion_info></adhesion_info>
@@ -24,19 +24,31 @@
         <setting key="retraction amount">5</setting>
         <setting key="retraction speed">40</setting>
         <setting key="print cooling">30</setting>
+        <setting key="spool_weight">2200</setting>
+        <setting key="spool_cost">90</setting>
 
         <machine>
-            <machine_identifier manufacturer="Blackbelt BV" product="blackbelt" />
+            <machine_identifier manufacturer="Blackbelt 3D BV" product="blackbelt" />
             <setting key="hardware compatible">yes</setting>
 
             <cura:setting key="speed_print">30</cura:setting>
             <cura:setting key="coasting_enable">yes</cura:setting>
-            <cura:setting key="coasting_volume">1</cura:setting>
-            <cura:setting key="retraction_extra_prime_amount">1</cura:setting>
             <cura:setting key="blackbelt_belt_wall_enabled">no</cura:setting>
             <cura:setting key="blackbelt_secondary_fans_enabled">yes</cura:setting>
             <cura:setting key="blackbelt_secondary_fans_speed">20</cura:setting>
             <cura:setting key="blackbelt_z_offset_gap">0.5</cura:setting>
+        </machine>
+        <machine>
+            <machine_identifier manufacturer="Blackbelt 3D BV" product="blackbeltvd" />
+            <setting key="hardware compatible">yes</setting>
+
+            <cura:setting key="speed_print">60</cura:setting>
+            <cura:setting key="coasting_enable">no</cura:setting>
+            <cura:setting key="coasting_volume">0.5</cura:setting>
+            <cura:setting key="blackbelt_belt_wall_enabled">no</cura:setting>
+            <cura:setting key="blackbelt_secondary_fans_enabled">yes</cura:setting>
+            <cura:setting key="blackbelt_secondary_fans_speed">20</cura:setting>
+            <cura:setting key="blackbelt_z_offset_gap">0.8</cura:setting>
         </machine>
     </settings>
 </fdmmaterial>
