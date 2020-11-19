@@ -34,11 +34,73 @@
             <cura:setting key="blackbelt_secondary_fans_speed">50</cura:setting>
             <cura:setting key="blackbelt_belt_wall_enabled">no</cura:setting>
             <cura:setting key="material_flow">55</cura:setting>
+            <cura:setting key="blackbelt_z_offset_gap">0.4</cura:setting>
             <cura:setting key="coasting_enable">yes</cura:setting>
             <cura:setting key="coasting_volume">10</cura:setting>
             <cura:setting key="coasting_min_volume">20</cura:setting>
             <cura:setting key="coasting_speed">70</cura:setting>
             <cura:setting key="retraction_extra_prime_amount">-2</cura:setting>
+
+            <hotend id="0.25 mm, 15°">
+                <cura:setting key="coasting_volume">1</cura:setting>
+            </hotend>
+            <hotend id="0.25 mm, 25°">
+                <cura:setting key="coasting_volume">1</cura:setting>
+            </hotend>
+            <hotend id="0.25 mm, 35°">
+                <cura:setting key="coasting_volume">1</cura:setting>
+            </hotend>
+            <hotend id="0.25 mm, 45°">
+                <cura:setting key="coasting_volume">1</cura:setting>
+            </hotend>
+            <hotend id="0.4 mm, 15°">
+                <cura:setting key="coasting_volume">3</cura:setting>
+            </hotend>
+            <hotend id="0.4 mm, 25°">
+                <cura:setting key="coasting_volume">3</cura:setting>
+            </hotend>
+            <hotend id="0.4 mm, 35°">
+                <cura:setting key="coasting_volume">3</cura:setting>
+            </hotend>
+            <hotend id="0.4 mm, 45°">
+                <cura:setting key="coasting_volume">3</cura:setting>
+            </hotend>
+            <hotend id="0.6 mm, 15°">
+                <cura:setting key="coasting_volume">5</cura:setting>
+            </hotend>
+            <hotend id="0.6 mm, 25°">
+                <cura:setting key="coasting_volume">5</cura:setting>
+            </hotend>
+            <hotend id="0.6 mm, 35°">
+                <cura:setting key="coasting_volume">5</cura:setting>
+            </hotend>
+            <hotend id="0.6 mm, 45°">
+                <cura:setting key="coasting_volume">5</cura:setting>
+            </hotend>
+            <hotend id="0.8 mm, 15°">
+                <cura:setting key="coasting_volume">8</cura:setting>
+            </hotend>
+            <hotend id="0.8 mm, 25°">
+                <cura:setting key="coasting_volume">8</cura:setting>
+            </hotend>
+            <hotend id="0.8 mm, 35°">
+                <cura:setting key="coasting_volume">8</cura:setting>
+            </hotend>
+            <hotend id="0.8 mm, 45°">
+                <cura:setting key="coasting_volume">8</cura:setting>
+            </hotend>
+            <hotend id="1.0 mm, 15°">
+                <cura:setting key="coasting_volume">10</cura:setting>
+            </hotend>
+            <hotend id="1.0 mm, 25°">
+                <cura:setting key="coasting_volume">10</cura:setting>
+            </hotend>
+            <hotend id="1.0 mm, 35°">
+                <cura:setting key="coasting_volume">10</cura:setting>
+            </hotend>
+            <hotend id="1.0 mm, 45°">
+                <cura:setting key="coasting_volume">10</cura:setting>
+            </hotend>
         </machine>
         <machine>
             <machine_identifier manufacturer="Blackbelt 3D BV" product="blackbeltvd" />
@@ -48,12 +110,73 @@
             <cura:setting key="blackbelt_secondary_fans_speed">50</cura:setting>
             <cura:setting key="blackbelt_belt_wall_enabled">no</cura:setting>
             <cura:setting key="material_flow">55</cura:setting>
-            <cura:setting key="blackbelt_z_offset_gap">0.7</cura:setting>
+            <cura:setting key="blackbelt_z_offset_gap">0.4</cura:setting>
             <cura:setting key="coasting_enable">yes</cura:setting>
             <cura:setting key="coasting_volume">10</cura:setting>
             <cura:setting key="coasting_min_volume">20</cura:setting>
             <cura:setting key="coasting_speed">70</cura:setting>
             <cura:setting key="retraction_extra_prime_amount">-2</cura:setting>
+
+            <hotend id="0.2 mm, 15°">
+                <cura:setting key="coasting_volume">0.5</cura:setting>
+            </hotend>
+            <hotend id="0.2 mm, 25°">
+                <cura:setting key="coasting_volume">0.5</cura:setting>
+            </hotend>
+            <hotend id="0.2 mm, 35°">
+                <cura:setting key="coasting_volume">0.5</cura:setting>
+            </hotend>
+            <hotend id="0.2 mm, 45°">
+                <cura:setting key="coasting_volume">0.5</cura:setting>
+            </hotend>
+            <hotend id="0.4 mm, 15°">
+                <cura:setting key="coasting_volume">3</cura:setting>
+            </hotend>
+            <hotend id="0.4 mm, 25°">
+                <cura:setting key="coasting_volume">3</cura:setting>
+            </hotend>
+            <hotend id="0.4 mm, 35°">
+                <cura:setting key="coasting_volume">3</cura:setting>
+            </hotend>
+            <hotend id="0.4 mm, 45°">
+                <cura:setting key="coasting_volume">3</cura:setting>
+            </hotend>
+            <hotend id="0.6 mm, 15°">
+                <cura:setting key="coasting_volume">5</cura:setting>
+            </hotend>
+            <hotend id="0.6 mm, 25°">
+                <cura:setting key="coasting_volume">5</cura:setting>
+            </hotend>
+            <hotend id="0.6 mm, 35°">
+                <cura:setting key="coasting_volume">5</cura:setting>
+            </hotend>
+            <hotend id="0.6 mm, 45°">
+                <cura:setting key="coasting_volume">5</cura:setting>
+            </hotend>
+            <hotend id="0.9 mm, 15°">
+                <cura:setting key="coasting_volume">8</cura:setting>
+            </hotend>
+            <hotend id="0.9 mm, 25°">
+                <cura:setting key="coasting_volume">8</cura:setting>
+            </hotend>
+            <hotend id="0.9 mm, 35°">
+                <cura:setting key="coasting_volume">8</cura:setting>
+            </hotend>
+            <hotend id="0.9 mm, 45°">
+                <cura:setting key="coasting_volume">8</cura:setting>
+            </hotend>
+            <hotend id="1.2 mm, 15°">
+                <cura:setting key="coasting_volume">10</cura:setting>
+            </hotend>
+            <hotend id="1.2 mm, 25°">
+                <cura:setting key="coasting_volume">10</cura:setting>
+            </hotend>
+            <hotend id="1.2 mm, 35°">
+                <cura:setting key="coasting_volume">10</cura:setting>
+            </hotend>
+            <hotend id="1.2 mm, 45°">
+                <cura:setting key="coasting_volume">10</cura:setting>
+            </hotend>
         </machine>
     </settings>
 </fdmmaterial>
