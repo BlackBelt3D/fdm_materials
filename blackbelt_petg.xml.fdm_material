@@ -30,11 +30,8 @@
             <setting key="hardware compatible">yes</setting>
 
             <cura:setting key="blackbelt_belt_wall_speed">10</cura:setting>
-            <cura:setting key="blackbelt_belt_wall_flow">90</cura:setting>
             <cura:setting key="blackbelt_secondary_fans_enabled">yes</cura:setting>
             <cura:setting key="coasting_enable">yes</cura:setting>
-            <cura:setting key="coasting_volume">1</cura:setting>
-			<cura:setting key="coasting_min_volume">2</cura:setting>
             <cura:setting key="coasting_speed">70</cura:setting>
             <cura:setting key="blackbelt_secondary_fans_speed">5</cura:setting>
         </machine>
@@ -43,14 +40,10 @@
             <setting key="hardware compatible">yes</setting>
 
             <cura:setting key="blackbelt_belt_wall_speed">10</cura:setting>
-            <cura:setting key="blackbelt_belt_wall_flow">100</cura:setting>
             <cura:setting key="blackbelt_secondary_fans_enabled">yes</cura:setting>
             <cura:setting key="blackbelt_secondary_fans_speed">5</cura:setting>
-            <cura:setting key="blackbelt_z_offset_gap">0.25</cura:setting>
             <cura:setting key="retraction amount">2.5</cura:setting>
             <cura:setting key="coasting_enable">yes</cura:setting>
-            <cura:setting key="coasting_volume">1</cura:setting>
-            <cura:setting key="coasting_min_volume">2</cura:setting>
             <cura:setting key="coasting_speed">70</cura:setting>
         </machine>
     </settings>

@@ -44,11 +44,10 @@
 
             <cura:setting key="speed_print">60</cura:setting>
             <cura:setting key="coasting_enable">no</cura:setting>
-            <cura:setting key="coasting_volume">0.5</cura:setting>
             <cura:setting key="blackbelt_belt_wall_enabled">no</cura:setting>
             <cura:setting key="blackbelt_secondary_fans_enabled">yes</cura:setting>
             <cura:setting key="blackbelt_secondary_fans_speed">20</cura:setting>
-            <cura:setting key="blackbelt_z_offset_gap">0.8</cura:setting>
+            <cura:setting key="blackbelt_z_offset_gap">0.5</cura:setting>
         </machine>
     </settings>
 </fdmmaterial>
